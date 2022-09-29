@@ -1,13 +1,13 @@
 import "./App.css";
 import CounterView from "./app/features/counter/CounterView";
-import TodosView from "./app/features/todos/TodosView";
+import Postview from "./app/features/posts/Postview";
 
 function App() {
   return (
     <div className="App">
       <h1>Counter application</h1>
       <CounterView />
-      {/* <TodosView /> */}
+      <Postview />
     </div>
   );
 }
